@@ -25,7 +25,25 @@ myenv\Scripts\activate
 - En macOS/Linux:
 
 ```
-python3 -m venv myenv
+python -m venv myenv
 source myenv/bin/activate
 ```
+## 4- Instala las dependencias del proyecto:
+
+```
+pip install django
+```
+## 5- Ejecuta las migraciones (en caso de que las haya):
+```
+python manage.py migrate
+```
+
+## 6- Ejecuta el servidor de desarrollo:
+
+```
+python manage.py runserver
+```
+
+
+
 
