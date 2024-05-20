@@ -15,11 +15,17 @@ cd my-django-project
 ```
 ## 3- Crea un entorno virtual y actívalo:
 
+- En Windows
 ```
 bash
 python -m venv myenv
 myenv\Scripts\activate
 ```
 
+- En macOS/Linux:
 
+```
+python3 -m venv myenv
+source myenv/bin/activate
+```
 
