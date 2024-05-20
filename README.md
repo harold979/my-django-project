@@ -13,6 +13,13 @@ git clone https://github.com/harold979/my-django-project.git
 cd my-django-project
 
 ```
+## 3- Crea un entorno virtual y actívalo:
+
+```
+bash
+python -m venv myenv
+myenv\Scripts\activate
+```
 
 
 
